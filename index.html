@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>building a quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <ul>
+                <li><img src="image/téléchargement.jpeg" alt="freeCodeCamp"></li>
+                <li><span>HTML/CSS Quiz</span></li>
+                <li><a href="http://">INFO</a></li>
+                <li><a href="http://">HTML</a></li>
+                <li><a href="http://">CSS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <form action="post">
+            <fieldset>
+                <legend>
+                    Student Info
+                </legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="dob">D.O.B:</label>
+                <input type="date" name="dob" id="dob" required>
+            </fieldset>
+            <fieldset>
+                <legend>HTML</legend>
+                <div>
+                    <p>Question #1</p>
+                    <p>The legend element represents a caption for the content of its parent fieldset element
+                    </p>    
+                    <label for="true"><input type="radio" name="question1" id="q1true" value="q1true"> True</label>
+                    <label for="false"><input type="radio" name="question1" id="q1false" value="q1false"> False</label>
+                </div>
+                <div>
+                    <p>Question #2</p>
+                    <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+                    <label for="question2true"><input type="radio" name="question2true" id="q2true" value="q2true"> True</label>
+                    <label for="question2false"><input type="radio" name="question2false" id="q2false" value="q2false"> False</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>CSS</legend>
+                <div>
+                    <label for="select">Can the CSS margin property accept negative values?</label>
+                    <select name="select" id="">
+                        <option value="selectanoption">Select an option</option>
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Do you have any questions:</label>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Who is flexbox..."></textarea>
+                </div>
+            </fieldset>
+            <input type="submit" value="Send">
+        </form>
+    </main>
+    <footer>
+        <a href="http://">freeCodeCamp</a>
+        <p>San Francisco</p>
+        <p>California</p>
+        <p>USA</p>
+    </footer>
+</body>
+</html>

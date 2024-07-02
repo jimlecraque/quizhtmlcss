@@ -1,0 +1,23 @@
+*{
+    list-style: none;
+}
+nav div
+{
+    display: flex;
+}
+nav img
+{
+    height: 25px;
+}
+nav a
+{
+    text-decoration: none;
+}
+ul li
+{
+    display: inline;
+}
+fieldset:nth-child(2) label
+{
+    display: block;
+}
