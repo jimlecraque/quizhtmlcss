@@ -78,6 +78,10 @@ main
 {
     width: 300px;
 }
+.margin-property
+{
+    padding-bottom: 10px;
+}
 .margin-property label
 {
     display: block;
@@ -85,13 +89,26 @@ main
 footer
 {
     background-color: rgb(14, 6, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 footer p, a
 {
     color: white;
     text-align: center;
 }
-footer a
+footer a[href]:link
 {
-    text-align: center;
+    color: rgb(184, 184, 230);
 }
+footer a[href]:visited
+{
+    color: rgb(14, 186, 69);
+}
+footer a[href]:hover
+{
+    color: aliceblue;
+}
+
