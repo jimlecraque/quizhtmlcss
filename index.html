@@ -9,9 +9,9 @@
 <body>
     <nav>
         <div>
+            <img src="image/téléchargement.jpeg" alt="freeCodeCamp">
+            <span>HTML/CSS Quiz</span>
             <ul>
-                <li><img src="image/téléchargement.jpeg" alt="freeCodeCamp"></li>
-                <li><span>HTML/CSS Quiz</span></li>
                 <li><a href="http://">INFO</a></li>
                 <li><a href="http://">HTML</a></li>
                 <li><a href="http://">CSS</a></li>
@@ -21,18 +21,18 @@
     <main>
         <form action="post">
             <fieldset>
-                <legend>
+                <h2>
                     Student Info
-                </legend>
+                </h2>
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name" required> <br>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" required> <br>
                 <label for="dob">D.O.B:</label>
                 <input type="date" name="dob" id="dob" required>
             </fieldset>
             <fieldset>
-                <legend>HTML</legend>
+                <h2>HTML</h2>
                 <div>
                     <p>Question #1</p>
                     <p>The legend element represents a caption for the content of its parent fieldset element
@@ -48,7 +48,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>CSS</legend>
+                <h2>CSS</h2>
                 <div>
                     <label for="select">Can the CSS margin property accept negative values?</label>
                     <select name="select" id="">
@@ -62,7 +62,8 @@
                     <textarea name="" id="" cols="30" rows="5" placeholder="Who is flexbox..."></textarea>
                 </div>
             </fieldset>
-            <input type="submit" value="Send">
+            <div><input type="submit" value="Send"></div>
+            
         </form>
     </main>
     <footer>
